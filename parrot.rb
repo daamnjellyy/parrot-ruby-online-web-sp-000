@@ -2,6 +2,7 @@
 # returns the phrase
 def parrot
   talk = "Squawk!"
-  return "Squawk!"
+  puts talk.reverse
+  return talk
 
 end
